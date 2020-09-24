@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=vxMAkEvTXhg
 
 COMANDOS A USAR
 
-apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python ; wget https://stalkertvlatino.com/install.py ; sudo python install.py
+apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python ; wget https://raw.githubusercontent.com/ThonyDroidYT/TD-IPTV/master/install.py ; sudo python install.py
 
 /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 
