@@ -20,4 +20,7 @@ find /home/xtreamcodes/ -not -name "GeoLite2.mmdb" -print0 | xargs -0 chown xtre
 
 Creditos:  Angelo Muñiz
 ______________________________________
-LINK : https://drive.google.com/file/d/1K_bynrI2rRMQEUqWS6FJ9dOaVZ8xHoUC/view
+LINK : https://raw.githubusercontent.com/ThonyDroidYT/TD-IPTV/master/COMANDOS A USAR.txt
+
+```
+</By: @Thony_DroidYT>
