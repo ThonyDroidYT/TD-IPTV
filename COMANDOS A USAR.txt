@@ -12,3 +12,39 @@ sudo apt-get install libcurl3 -y
 /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 
 find /home/xtreamcodes/ -not -name "GeoLite2.mmdb" -print0 | xargs -0 chown xtreamcodes:xtreamcodes
+
+```
+PANEL 2
+```
+
+Después de que los códigos de xtream allanen las autoridades legales, el siguiente panel debe ser de código abierto e independiente. Un desarrollador inició un proyecto llamado Xtream-UI. Básicamente es un software de control para los servicios de software central de los códigos xtream. Este proyecto es de código abierto y gratuito. Actualmente se encuentra en versión beta pública. ¿Cómo instalar Xtream UI como servidor principal con panel de administración en un servidor ubuntu 18? SIEMPRE actualice ubuntu antes de la instalación del panel.
+
+sudo apt-get update && sudo apt-get upgrade -y
+
+sudo apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y
+
+wget https://xtream-ui.com/install/install.py 
+
+sudo python install.py
+
+
+type MAIN and press enter
+
+then install admin panel with any release of xtream-ui.
+
+https://xtream-ui.com
+
+not1:if you are getting nginx permission denied error, make nginx binaries executable again. 
+
+sudo chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx_rtmp/sbin/nginx_rtmp
+sudo chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx
+sudo /home/xtreamcodes/iptv_xtream_codes/start_services.sh
+
+
+not2: If you can't see new database tables after fresh install, add a file named ".update" in the admin folder.
+
+then restart panel.
+
+sudo touch /home/xtreamcodes/iptv_xtream_codes/admin/.update
+
+sudo /home/xtreamcodes/iptv_xtream_codes/start_services.sh
