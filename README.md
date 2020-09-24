@@ -14,7 +14,9 @@ apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python ; wge
 
 sudo python install.py
 
-Admin
+1 MAIN
+
+2 ADMIN
 
 /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 
